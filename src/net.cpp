@@ -1178,7 +1178,7 @@ static const char *strMainNetDNSSeed[][2] = {
 	{NULL, NULL}
 };
 
-static const char *strMainNetDNSSeed[][2] = {
+static const char *strTestNetDNSSeed[][2] = {
     {"firstbytecoin.com", "149.154.69.189"},
 	{"149.154.69.189", "149.154.69.189"},
 	{NULL, NULL}
