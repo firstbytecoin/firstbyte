@@ -1089,14 +1089,11 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
 {
  int64 nSubsidy = 21 * COIN;
 if(nHeight == 1)   
-		{ 
-			nSubsidy = 10000000000 * COIN; 
-		}
-    if (nHeight != 0)
-	{
-        for (int Loop = 0; Loop < nHeight /30; Loop++)
+		nSubsidy = 10000000000 * COIN; 
+if (nHeight != 0)
+      for (int fourr = 0; fourr < nHeight /30; fourr++)
 		{
-            	nSubsidy = (nSubsidy/100)*50;
+            	nSubsidy = (nSubsidy/100)*95;
         }
 	}
     return nSubsidy + nFees;
