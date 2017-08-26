@@ -1096,7 +1096,7 @@ if(nHeight == 1)
 	{
         for (int Loop = 0; Loop < nHeight /30; Loop++)
 		{
-            	nSubsidy = (nSubsidy/10)*50;
+            	nSubsidy = (nSubsidy/100)*50;
         }
 	}
     return nSubsidy + nFees;
